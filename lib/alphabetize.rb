@@ -32,7 +32,7 @@ def alphabetize(arr)
     "v" => 26,
     "z" => 27
   }
-  arr.sort! do |x, y|
+  arr.sort do |x, y|
   alphabet_hash[y[0]] <=>alphabet_hash[x[0]]
   # binding.pry
 end 
