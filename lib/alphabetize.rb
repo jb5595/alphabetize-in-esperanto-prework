@@ -1,7 +1,7 @@
 require 'pry'
 def alphabetize(arr)
   # code here
-  # alphabet = "abcdefghijĵklmnoprstuvz"
+
   alphabet_hash = {
     "a" => 0,
     "b" => 1,
