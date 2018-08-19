@@ -39,9 +39,9 @@ def alphabetize(arr)
     #   i +=1 
     # end 
   if alphabet_hash[y[0]] < alphabet_hash[x[0]]
-    sorted.push(y[0])
+    sorted.push(y)
   elsif alphabet_hash[y[0]] > alphabet_hash[x[0]]
-   sorted.push(x[0])
+   sorted.push(x)
   end 
  end 
   sorted
