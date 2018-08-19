@@ -36,6 +36,7 @@ def alphabetize(arr)
   if alphabet_hash[y[0]] < alphabet_hash[x[0]]
     sorted.push(alphabet_hash[y[0]])
   elsif alphabet_hash[y[0]] > alphabet_hash[x[0]]
+   sorted.push(alphabet_hash[x[0]])
   binding.pry
 end 
   arr
