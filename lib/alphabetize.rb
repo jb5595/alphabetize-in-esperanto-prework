@@ -33,7 +33,7 @@ def alphabetize(arr)
     "z" => 27
   }
   arr.sort do |x, y|
-    binding.pry
+    # binding.pry
   if alphabet_hash[y[0]] < alphabet_hash[x[0]]
     sorted.push(alphabet_hash[y[0]])
   elsif alphabet_hash[y[0]] > alphabet_hash[x[0]]
